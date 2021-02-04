@@ -1,10 +1,12 @@
 public class JSample4_1 {
   public static void main(String[] args){
     int i = 84;
-    Integer oi = new Integer(i);
 
+    Integer oi = new Integer(i);
     String str1 = oi.toString();
+
     String str2 = String.valueOf(i);
+    
     String str3 = "" + i;
 
     String moji = str2 + str3;

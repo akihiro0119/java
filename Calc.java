@@ -17,7 +17,8 @@ public static void main(String[] args){
     int total = CalcLogic.plus(a,b);
     int delta = CalcLogic.minus(a,b);
     int call = CalcLogic.call(a,b);
+    int waru = CalcLogic.waru(a,b);
 
-    System.out.println("足したら" + total + "引いたら" + delta + "かけたら" + call);
-  }
+    System.out.println("足したら" + total + ",引いたら" + delta + ",かけたら" + call + ",割ったら" + waru);
+    }
 }
